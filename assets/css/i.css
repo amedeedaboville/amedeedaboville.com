@@ -232,7 +232,7 @@ a, a:visited, a:active {
   transition: all 0.25s ease-in-out; }
 
 a:hover {
-  color: #59afdf;
+  color: #8ab9d1;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
   -webkit-transition: all 0.25s ease-in-out;
@@ -267,7 +267,7 @@ blockquote, blockquote p {
 
 /*   Code Formatting    */
 code {
-  color: #59afdf;
+  color: #8ab9d1;
   font-family: "Monaco", "Courier New", "Courier";
   font-size: .75em;
   font-weight: bold; }
@@ -537,7 +537,7 @@ header.site-header nav {
       .archive-wrap .post-list lh h2 a {
         color: #3b3b3b; }
         .archive-wrap .post-list lh h2 a:hover {
-          color: #59afdf; }
+          color: #8ab9d1; }
     .archive-wrap .post-list .featured-image-small {
       float: left;
       display: block;
