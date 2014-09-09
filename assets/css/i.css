@@ -201,7 +201,7 @@ body {
   height: 100%;
   overflow-x: hidden; }
 
-.hilighted {
+.highlighted {
   color: #b4001d;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
@@ -209,13 +209,16 @@ body {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
 
-.unhilighted {
+.unhighlighted {
   color: #3b3b3b;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
+
+#sitetitle {
+  font-size: 36px; }
 
 h1, h2, h3, h4, h5 {
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif; }
@@ -530,7 +533,7 @@ header.site-header nav {
   display: block;
   margin: 0 auto;
   float: none;
-  padding-top: 140px; }
+  padding-top: 40px; }
   .archive-wrap .post-list {
     width: 100%;
     list-style-type: none;
