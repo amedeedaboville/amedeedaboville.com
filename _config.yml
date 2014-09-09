@@ -1,21 +1,20 @@
-title:            Jaan
-titlehilight:     Altosaar
-tagline:          Excursions into Entropy.
-description:      Physics PhD student at Princeton University. 
+title:            Amédée
+titlehilight:     d'Aboville
+tagline:          Diverting the Digital
+description:      McGill BSc. student at McGill University. 
 logo:             jathumb.jpg
 #Comment out url when working locally to resolve base urls correctly
-url: https://jaan.io
-
+url: http://amedeedaboville.com
 
 
 # Owner/author information
 owner:
-  name:           Jaan Altosaar
+  name:           Amédée d'Aboville
 #  avatar:         avatar.png
-  bio:            "Estonian-Canadian"
-  email:          jaan@jaan.io
+#bio:            "Estonian-Canadian"
+  email:          amedee.daboville@gmail.com
 #  twitter:        ctrunsthis        
-  github:         altosaar       
+  github:         amedeedaboville
 #  instagram:      ctrunsthis     
 #  dribbble:       coletownsend
 #  disqus:         balzac
