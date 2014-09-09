@@ -5,7 +5,7 @@ title: About
 description: I am a Physics PhD student interested in automating research, collective decision-making, and science outreach.
 tags: [about, Jaan Altosaar, Princeton, PhD, collective behavior]
 image:
-  feature: jaanaltosaar.jpg
+  feature: mandala.jpg
 ---
 I am working in the [Couzin Lab](http://icouzin.princeton.edu/), and with [David Blei](http://www.cs.princeton.edu/~blei/) on [modeling math equations in scientific papers](https://www.google-melange.com/gsoc/project/details/google/gsoc2014/jaanaltosaar/5741031244955648). You can find my CV at [jaan.io/cv](https://jaan.io/cv).
 
