@@ -410,8 +410,7 @@ header.site-header hgroup {
     font-size: 24px;
     line-height: 100%;
     color: #59afdf;
-    letter-spacing: 2px;
-    text-transform: uppercase; }
+    letter-spacing: 2px; }
   header.site-header hgroup a {
     color: #fff;
     -moz-transition: all 0.2s ease;
