@@ -10,13 +10,10 @@ I dig cognitive stuff.
 
 The best way to reach me is by email at [amedee.daboville@gmail.com](mailto:amedee.daboville@gmail.com). Feel free to connect via:
 
-## <center><a href="https://twitter.com/rockmeamedee" target="_blank"><i class="icon-twitter-sign"></i> Twitter</a></center>
+I'm a McGill student in my last year. I'm going to graduate with a degree in Software Engineering and a Minor in Communications studies.
+My technical interests are: data science/inference, automating things through knowledge engineering, formal verification, theory of computing.
 
-## <center><a href="http://www.linkedin.com/in/amedeedaboville" target="_blank"><i class="icon-linkedin-sign"></i> LinkedIn</a></center>
+I enjoy the feeling when you swap an inner loop with an outer loop and get a modest speed increase,
+when you look at a mess and you say "I know an abstraction to clean this up" and it works,
 
 ## <center><a href="https://github.com/amedeedaboville" target="_blank"><i class="icon-github"></i> GitHub</a></center>
-
-
-
-
-
