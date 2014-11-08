@@ -74,6 +74,8 @@ a {
 /* Accent Colors */
 /* Typography
    ========================================================================== */
+/*$sans: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+$serif: "Calendas Plus","Crimson Text", "Hoefler Text", "Georgia", serif; */
 /* Type Scale
    ========================================================================== */
 /** * 12 & 16 as roots then powers of two. */
@@ -191,7 +193,7 @@ blockquote, blockquote p {
     font-size: 32px; } }
 /************ Basic *************/
 body {
-  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
+  font-family: "Georgia", serif;
   color: #3b3b3b;
   -webkit-font-smoothing: antialiased;
   /* Fix for webkit rendering */
@@ -218,7 +220,7 @@ body {
   transition: all 0.2s ease-in-out; }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif; }
+  font-family: "Georgia", serif; }
 
 p {
   margin-bottom: 33px; }
@@ -312,7 +314,7 @@ input {
   background: none;
   outline: none;
   width: 100%;
-  font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif; }
+  font-family: "Georgia", serif; }
   .archive input:focus {
     background: white;
     color: #3b3b3b; }
@@ -490,7 +492,7 @@ header.site-header nav {
       width: 100%;
       margin-top: 0; }
       .article header hgroup .date {
-        font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+        font-family: "Helvetica Neue", "Arial", sans-serif;
         font-size: 16px;
         font-weight: bold;
         color: #a8a8a8;
@@ -585,7 +587,7 @@ header.site-header nav {
       top: -3px;
       font-size: 16px;
       font-weight: bold;
-      font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+      font-family: "Helvetica Neue", "Arial", sans-serif;
       font-style: normal;
       color: #a8a8a8;
       text-transform: uppercase;
@@ -630,7 +632,7 @@ header.site-header nav {
       margin-bottom: 16.5px; }
     .post figure figcaption {
       font-size: 16px;
-      font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+      font-family: "Helvetica Neue", "Arial", sans-serif;
       font-weight: bold;
       text-transform: uppercase;
       color: #bbbbbb;
@@ -715,7 +717,7 @@ footert {
       width: 100%;
       position: absolute;
       bottom: 12px;
-      font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+      font-family: "Helvetica Neue", "Arial", sans-serif;
       text-transform: uppercase;
       color: rgba(249, 249, 249, 0.5); }
       footert footer small a {
@@ -768,7 +770,7 @@ footert {
           margin: 0 1.25%;
           position: relative;
           font-size: 16px;
-          font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
+          font-family: "Helvetica Neue", "Arial", sans-serif;
           text-transform: uppercase;
           text-align: right; }
     footert footer .social {
