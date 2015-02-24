@@ -14,9 +14,9 @@ RUN apt-get -y install make g++ python git ruby ruby-dev
 RUN gem install bundler therubyracer jekyll kramdown
 
 #Download website from github and build it
-GIT_REPO=https://github.com/amedeedaboville/amedeedaboville.com.git
-TMP_GIT_CLONE=$HOME/tmp/
-PUBLIC_WWW=/var/www/blog
+ENV GIT_REPO https://github.com/amedeedaboville/amedeedaboville.com.git
+ENV TMP_GIT_CLONE $HOME/tmp/
+ENV PUBLIC_WWW /var/www/blog
 
 RUN git clone $GIT_REPO $TMP_GIT_CLONE
 RUN jekyll  build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
