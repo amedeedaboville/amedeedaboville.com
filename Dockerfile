@@ -14,15 +14,14 @@ RUN apt-get -y install make g++ python git ruby ruby-dev
 RUN gem install bundler therubyracer jekyll kramdown
 
 #Download website from github and build it
-#RUN git clone https://github.com/amedeedaboville/amedeedaboville.com.git
-
-GIT_REPO=$HOME/amedeedaboville.com.git
+GIT_REPO=https://github.com/amedeedaboville/amedeedaboville.com.git
 TMP_GIT_CLONE=$HOME/tmp/
-PUBLIC_WWW=/var/www/amedee
-JEKYLL=jekyll
+PUBLIC_WWW=/var/www/blog
 
 RUN git clone $GIT_REPO $TMP_GIT_CLONE
 RUN jekyll  build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
+RUN cp $TMP_GIT_CLONE/nginx.conf /etc/nginx/nginx.conf
+RUN cp $TMP_GIT_CLONE/sites-available /etc/nginx/sites-available/default
 RUN rm -Rf $TMP_GIT_CLONE
 
 #Set the default workdir
