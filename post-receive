@@ -1,7 +1,7 @@
 #!/bin/bash -l
-GIT_REPO=$HOME/jaan.io.git
+GIT_REPO=$HOME/amedeedaboville.com.git
 TMP_GIT_CLONE=$HOME/tmp/
-PUBLIC_WWW=/var/www/jaan.io
+PUBLIC_WWW=/var/www/amedee
 JEKYLL=jekyll
 
 git clone $GIT_REPO $TMP_GIT_CLONE
