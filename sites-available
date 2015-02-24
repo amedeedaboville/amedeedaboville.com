@@ -2,6 +2,6 @@
 server {
     listen 80 default_server backlog=2048;
     location / {
-        root /data/jekyll/_site;
+        root /var/www/blog;
     }
 }
