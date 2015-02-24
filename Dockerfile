@@ -7,11 +7,12 @@ RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
+RUN add-apt-repository -y ppa:nginx/stable && apt-get update && apt-get -y install nginx
 RUN apt-get -y install make g++ python git ruby ruby-dev
 
 #Do not forget to install your markdown converter gem  
 #( e.g. kramdown or rdisount)
-RUN gem install bundler therubyracer jekyll kramdown
+RUN gem install bundler therubyracer jekyll kramdown --no-rdoc --no-ri
 
 #Download website from github and build it
 ENV GIT_REPO https://github.com/amedeedaboville/amedeedaboville.com.git
