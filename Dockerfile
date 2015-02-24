@@ -7,8 +7,8 @@ RUN locale-gen en_US.UTF-8
 ENV LANG en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
+RUN apt-get -y install make g++ python git ruby ruby-dev software-properties-common
 RUN add-apt-repository -y ppa:nginx/stable && apt-get update && apt-get -y install nginx
-RUN apt-get -y install make g++ python git ruby ruby-dev
 
 #Do not forget to install your markdown converter gem  
 #( e.g. kramdown or rdisount)
@@ -20,7 +20,7 @@ ENV TMP_GIT_CLONE $HOME/tmp/
 ENV PUBLIC_WWW /var/www/blog
 
 RUN git clone $GIT_REPO $TMP_GIT_CLONE
-RUN jekyll  build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
+RUN jekyll build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
 RUN cp $TMP_GIT_CLONE/nginx.conf /etc/nginx/nginx.conf
 RUN cp $TMP_GIT_CLONE/sites-available /etc/nginx/sites-available/default
 RUN rm -Rf $TMP_GIT_CLONE
