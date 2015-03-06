@@ -16,14 +16,14 @@ RUN gem install bundler therubyracer jekyll kramdown --no-rdoc --no-ri
 
 #Download website from github and build it
 ENV GIT_REPO https://github.com/amedeedaboville/amedeedaboville.com.git
-ENV TMP_GIT_CLONE $HOME/tmp/
+ENV TMP_GIT_CLONE /repository
 ENV PUBLIC_WWW /var/www/blog
 
 RUN git clone $GIT_REPO $TMP_GIT_CLONE
 RUN jekyll build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
-RUN cp $TMP_GIT_CLONE/nginx.conf /etc/nginx/nginx.conf
-RUN cp $TMP_GIT_CLONE/sites-available /etc/nginx/sites-available/default
-RUN rm -Rf $TMP_GIT_CLONE
+RUN mv $TMP_GIT_CLONE/nginx.conf /etc/nginx/nginx.conf
+RUN mv $TMP_GIT_CLONE/sites-available /etc/nginx/sites-available/default
+RUN mv $TMP_GIT_CLONE/post-receive $TMP_GIT_CLONE/.git/hooks
 
 #Set the default workdir
 WORKDIR $PUBLIC_WWW
