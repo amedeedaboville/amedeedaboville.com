@@ -20,6 +20,8 @@ ENV TMP_GIT_CLONE /repository
 ENV PUBLIC_WWW /var/www/blog
 
 RUN git clone $GIT_REPO $TMP_GIT_CLONE
+VOLUME $TMP_GIT_CLONE
+
 RUN jekyll build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
 RUN mv $TMP_GIT_CLONE/nginx.conf /etc/nginx/nginx.conf
 RUN mv $TMP_GIT_CLONE/sites-available /etc/nginx/sites-available/default
