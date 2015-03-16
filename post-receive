@@ -1,3 +1,5 @@
 #!/bin/bash -l
-$JEKYLL build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
+cd $TMP_GIT_CLONE
+bundle install
+bundle exec jekyll build -s $TMP_GIT_CLONE -d $PUBLIC_WWW
 exit
