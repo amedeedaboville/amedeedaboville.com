@@ -3,7 +3,7 @@ layout: post-light-feature
 title: Why Hackers Should Study Communications
 description: "We have advanced models of tech, we need advanced models of society to match."
 category: articles
-tags: [hackers,media, Innis, McLuhan, systems]
+tags: [hackers, media, McLuhan, systems]
 image:
   feature: nile_delta_big.jpg
 published: true
@@ -33,24 +33,21 @@ others harder, others irrelevant, and therebey end up valuing some things/people
 For example, before the early PC's, there existed the positions of graph-maker. Before that, humans were put in rooms to be huge calculators. 
 The fact that these positions are not commonly hired for anymore has had a huge effect on people working in those fields. 
 
-Crudely, we as hackers need to continously be asking, "What message is our new medium sending?"
+Crudely, we as hackers need to continously be asking ourselves: "what message is our new medium sending?"
 
 Hackers can help fix broken structures and laws like the prison system, the war on drugs, racism, and the way healthcare works in the US.
 These are technical questions. Not in the sense that a new app is going to fix them, but through figuring out the boundaries
 and forces acting on these social systems, we can guide our technical solutions. By using our technical tools, knowledge of systems and 
 modelling, we can implement new solutions.
+I'm not saying technology will solve everything (this is called technodeterminism). It is easy to get caught up in technology and forget there are humans using it.
+Twitter did not cause the Arab spring. McLuhan himself made this mistake, and he claimed the printing press caused the American Revolution. 
 
 But if we make more software that spies on and tracks users, if we start companies around Command & Control systems, or create marketplaces
 that re-inforce specific differences, we're hurting the world. When we use an algorithm, we make assumptions about the world, which may
 act as self-fulfilling prophecies. When we hold data forever by default because it's easier, we're making mean political statements. 
-I'm not saying technology will solve everything (this is called technodeterminism). It is easy to get caught up in technology and forget there are humans using it.
-"Twitter" did not cause the Arab spring. McLuhan himself did this, and he claimed the printing press essentially caused the American Revolution. 
 
 Paul Graham once defined hackers as having three desires: money, power, and to make something. First, lolololololol.
 Second, if you are hacker who is interested in power, it behooves you to study how current media and culture affects the structures of power in our society.
 How can you try to 'change the way people connect' and not study other media and how they affected how people connected?
 Otherwise you'll end up making the world a better place through
 [minimal message-oriented transport layers](http://www.theinquirer.net/inquirer/news/2356389/top-10-silicon-valley-quotes-minimum-viable-product) .
-
-Image attribution: "Nile River Delta at Night" by ISS Expedition 25 crew - NASA Earth Observatory. Licensed under Public domain via Wikimedia Commons - 
-[Link Here](http://commons.wikimedia.org/wiki/File:Nile_River_Delta_at_Night.JPG#mediaviewer/File:Nile_River_Delta_at_Night.JPG)
