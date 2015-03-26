@@ -5,6 +5,7 @@ category: articles
 tags: [etl, ruby, curl, football, unix]
 image:
   feature: soccer_stadium.jpg
+published: true
 ---
 
 This post is from my old blog. 
