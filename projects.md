@@ -8,14 +8,12 @@ image:
 ---
 This is an incomplete list of a few projects I've worked on, in semi-chronological order.
 
-I've worked with java, scala, python, scikit-learn, C, and matlab.
-
-I've played with rails, django, and clojure. 
-
-Email me for my CV.
+Over the years I've worked with java, scala, python, scikit-learn, C, and matlab. I've also played with rails, django, clojure and haskell. 
 
 ##Fealines
-Fealines is a cross-platform app for collecting EEG data for people who own the Interaxon Muse.
+![Two people wearing the interaxon muse](../images/muse.png)
+Fealines is a cross-platform app for collecting EEG data for people who own the Interaxon Muse. I'm planning
+on doing some fun data collection with it.
 
 [github](https://github.com/amedeedaboville/fealines)
 
