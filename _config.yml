@@ -10,22 +10,8 @@ logo:             jathumb.jpg
 # Owner/author information
 owner:
   name:           Amédée d'Aboville
-#  avatar:         avatar.png
-#bio:            "Estonian-Canadian"
   email:          amedee.daboville@gmail.com
-#  twitter:        ctrunsthis        
   github:         amedeedaboville
-#  instagram:      ctrunsthis     
-#  dribbble:       coletownsend
-#  disqus:         balzac
-  # Plug in your disqus shortname!
-  # For Google Authorship https://plus.google.com/authorship
-#google_plus: 111852587957033089389 #other
-# Analytics and webmaster tools stuff goes here
-#google_analytics: UA-34129661-2   
-#google_verify: LTwvMh1s7cdUyjaHqQYsBg-I4ZPy0wm_TKUoU0IT5HU#LTwvMh1s7cdUyjaHqQYsBg-I4ZPy0wm_TKUoU0IT5HU      
-#https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-#bing_verify: B3B21CDB59D1FC75DFE9B0D0CC329C8C
 
 # Links to include in top navigation
 # For external links add external: true
@@ -40,22 +26,21 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-highlighter:    true
-markdown:    kramdown
+markdown:    redcarpet
+highlighter: rouge
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript"]
 
 kramdown:
+  input: GFM
+  syntax_highlighter: rouge
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  enable_coderay: false
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks -- was /:categories/:title
 permalink:   /:title
